@@ -1,0 +1,101 @@
+body {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: lightgray;
+  }
+  .box {
+    width: 350px;
+    border: 2px solid lightgray;
+    padding: 20px;
+    margin: 40px auto;
+    border-radius: 16px;
+    background-color: white;
+  }
+  .input,.inputs {
+    display: block;
+    margin-bottom: 10px;
+    width: 81%;
+    padding: 13px;
+    margin-left: 17px;
+    margin-top: 10px;
+    border-radius: 6px;
+    border: 2px solid lightgray;
+    text-align: left;
+    font-size: medium;
+  }
+  .inputs{
+    width: 89%;
+  }
+  .adjust{
+    margin-right: -20px;
+  }
+
+  .input:focus, .inputs:focus {
+    border: 2px solid rgba(69, 50, 237, 0.89);
+    outline: none; /* Remove default outline */
+  }
+  
+  .btn {
+    padding: 12px;
+    width: 90%;
+    margin-left: 17px;
+    border-radius: 6px;
+    border: none;
+    background-color: rgba(69, 50, 237, 0.89);
+    color: white;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    font-size: medium;
+  }
+  .text {
+    margin-top: -15px;
+    text-align: center;
+  }
+  .text1{
+    margin-top: -35px;
+    color: rgb(136, 134, 134);
+    padding: 20px;
+  }
+  .text2{
+    margin-top: -30px;
+    color: rgb(136, 134, 134);
+    padding: 15px;
+  }
+  #days{
+    font-weight: bold;
+  }
+  .card {
+    text-align: center;
+    font-size: 40px;
+    margin-top: 0px;
+  }
+  .secure{
+    text-align: center;
+    font-size: small;
+    color: rgb(136, 134, 134);
+  }
+  .options{
+    margin-left: 18px;
+    font-size: smaller;
+    color: rgb(136, 134, 134);
+    margin-bottom: -7px;
+  }
+  .home{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  .homeBtn{
+    background-color: white;
+    border: none;
+    padding: 14px 30px;
+    font-size: 16px;
+    border-radius: 18px;
+    color: rgb(92, 91, 91);
+  }
+  .homeLink{
+    text-decoration: none; 
+    color: inherit;
+  }

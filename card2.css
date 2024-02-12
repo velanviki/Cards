@@ -1,0 +1,91 @@
+body {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: lightgray;
+}
+.card,.card2 {
+  height: 320px;
+  width: 350px;
+  margin: 50px auto;
+  border: 2px solid lightgrey;
+  background-color: white;
+  padding: 25px;
+  border-radius: 16px;
+}
+.card2{
+  height: 380px;
+}
+.wave {
+  text-align: center;
+  font-size: 40px;
+  margin-top: 0px;
+}
+.text {
+    padding: 28px;
+    margin-top: -70px;
+  text-align: center;
+}
+.text2{
+    padding: 14px;
+    margin-top: -50px;
+  text-align: center;
+}
+.paraText{
+    margin-top: -10px;
+    color: rgb(136, 134, 134);
+}
+.paraText2{
+    margin-top: -20px;
+    color: rgb(136, 134, 134);
+    padding: 22px;
+    font-size: 14px;
+}
+.btn-work,.btn-new {
+  display: block;
+  margin-bottom: 20px;
+  width: 92%;
+  padding: 13px;
+  margin-left: 14px;
+  margin-top: -10px;
+  border-radius: 6px;
+  border: 0px solid lightgray;
+  font-size: medium;
+  text-align: left;
+}
+.btn-new {
+    margin-bottom: 10px;
+    margin-top: 15px;
+  }
+.btn-personal,.btn-existing {
+  margin-bottom: 20px;
+  width: 92%;
+  padding: 13px;
+  margin-left: 14px;
+  border-radius: 6px;
+  border: 2px solid white;
+  font-size: medium;
+  text-align: left;
+  background-color: white;
+}
+
+.emoji {
+  margin-right: 10px;
+}
+.home{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+.homeBtn{
+  background-color: white;
+  border: none;
+  padding: 14px 30px;
+  font-size: 16px;
+  border-radius: 18px;
+  color: rgb(92, 91, 91);
+}
+.homeLink{
+  text-decoration: none; 
+  color: inherit;
+}
